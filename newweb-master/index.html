@@ -14,11 +14,15 @@
         </span>
         <span class="shutter bottom"></span>
     </div>
-
-    <nav class="navbar">
-        <a href=""><img src="Images/logo.jpg" class="brand-logo" alt="The logo of the company"></a>
-        <a href="" style="text-decoration: none;"><p class="brand-name" style="font-family: monospace;font-size: xx-large;">PetroWatt</p></a>
-        <section class="p-menu1">
+    <header class="header"  id="textbox1">
+    <nav class="navbar" style="position: fixed;">
+        <a href="" ><img src="Images\logo-removebg-preview.png" class="brand-logo" alt="The logo of the company"></a>
+        <a href="" style="text-decoration: none;"><p class="brand-name" style="font-family: monospace;font-size: xx-large;color: greenyellow;">PetroWatt</p></a>
+        <ul class="slider-menu" style="padding-right: 2%; font-size: large; padding-top: 1%;">
+			<li style="text-decoration: underline;"><a href="#textbox1" style="color: greenyellow;">Home</a></li>
+			<li style="text-decoration: underline; color: greenyellow;"><a href="#AboutUs" style="color: greenyellow;">About</a></li>
+		</ul>
+        <!--<section class="p-menu1">
             <nav id="navbar" class="navigation" role="navigation">
               <input id="toggle1" type="checkbox" />
               <label class="hamburger1" for="toggle1" style="margin: 0;color: greenyellow;">
@@ -34,10 +38,10 @@
                 <a class="link1" href="#AboutUs">Contact Us</a>
               </nav>
           </nav>
-          </section>
+          </section>-->
     </nav>
 
-    <div class="petro-carousel">
+   <!--- <div class="petro-carousel">
         <div class="carousel">
             <h1 class="title">Model <br> #1</h1>
             <button class="btn">View</button>
@@ -56,7 +60,15 @@
             <span></span>
             <span></span>
         </div>
-    </div>
+    </div>-->
+        <div class="text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main" style="color: greenyellow;font-size: xxx-large;font-weight: 700;margin-top: 5%;">LAUNCHING SOON</span>
+                <br><br>
+                <span class="heading-primary-sub" style="color: greenyellow;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores exercitationem recusandae rem porro officiis similique!</span>
+            </h1>
+        </div>
+    </header>
 
     <div class="model-container" id="PickYours">
         <img src="Images/bike1.jpg" class="model-img" alt="BikeModel">
@@ -81,17 +93,22 @@
             <img class="imager" src="Images/patrick-NdNtLhq0uG4-unsplash.jpg" alt="Image of Car">
         </div>
         <div class="content">
-            <h1 class="heading">Supreme <br> Battery</h1>
-            <button class="btn">View</button>
+            <h1 class="heading">Available <br> Batteries</h1>
+            <!--<button class="button1" style="display: inline;">#1</button></a>-->
+            <button class="btn btn-lg" style="padding-left: 1vh;height:50px;width:220px">Lithium Ion Battery </button>
+            <br>
+            <button class="btn btn-lg" style="margin-top: 2vh; padding-left: 1vh; width: 275px;height: 60px;">Lithium Ferro Phosphate Battery</button>
         </div>
     </div>
 
     <div class="info-card two">
+        <!--
         <div class="imageonright">
             <img class="imager" src="Images/harley-davidson-MAhPucR_Hq4-unsplash.jpg" alt="Image of Car">
         </div>
+        -->
         <div class="content">
-            <h1 class="heading"><span>Marvelous</span> <br> Designs</h1>
+            <h1 class="heading"><span>OUR </span> <br>PRICING</h1>
             <button class="btn">View</button>
         </div>
     </div>
@@ -100,8 +117,8 @@
     <div class="wrap">
         <div class="box">
              
-            <img class="imgabt" src ="Images/SaiKrishna.jpeg" style="object-fit: cover;height: 550px;">
-            <div class="social" style="margin-top: -350px;">
+            <img class="imgabt" src ="Images/saikrishna.jpeg " style="height: 350px;">
+            <div class="social" style="margin-top: -270px;">
                 <a class="lin" href="#"><i class ="fa fa-facebook"></i></a>
                 <a class="lin" href="#"><i class ="fa fa-twitter"></i></a>
                 <a class="lin" href="#"><i class ="fa fa-linkedin"></i></a>
@@ -115,8 +132,8 @@
          
         <div class="box">
              
-            <img class="imgabt" src ="Images/name2.jpg" style="object-fit: cover;height: 550px;">
-            <div class="social" style="margin-top: -350px;">
+            <img class="imgabt" src ="Images/name2.jpeg" style="height: 350px;">
+            <div class="social" style="margin-top: -270px;">
             <a class="lin" href="#"><i class ="fa fa-facebook"></i></a>
             <a class="lin" href="#"><i class ="fa fa-twitter"></i></a>
             <a class="lin" href="#"><i class ="fa fa-linkedin"></i></a>
@@ -133,9 +150,8 @@
         <div class="box">
              
             <img class="imgabt" src ="Images/K.Harshith">
-            <div class="social">
+            <div class="social" style="margin-top :-220px;">
                 <a class="lin" href="#"><i class ="fa fa-facebook"></i></a>
-                <a class="lin" href="#"><i class ="fa fa-twitter"></i></a>
                 <a class="lin" href="#"><i class ="fa fa-linkedin"></i></a>
                 <a class="lin" href="#"><i class ="fa fa-instagram"></i></a>
             </div>
@@ -172,8 +188,9 @@
         </div>
     </div>
 
-    <footer style="margin-top: 3%;">
-        <div class="footer-content">
+    <footer style="margin-top: 3%;height: 37vh;">
+        
+        <div style="height: 100%;" class="footer-content">
             <h3>PetroWatt</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, culpa tempora error, maiores mollitia atque recusandae rerum ullam explicabo consequuntur, asperiores nihil libero ratione assumenda.</p>
             <ul class="socials">
@@ -187,8 +204,7 @@
             <p>copyright &copy; <a href="#">CopyRight comes here!</a>  </p>
                     <div class="footer-menu">
                       <ul class="f-menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="#textbox1">Home</a></li>
                         <li><a href="#AboutUs">Contact</a></li>
                       </ul>
                     </div>
